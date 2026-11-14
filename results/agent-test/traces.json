@@ -1,0 +1,885 @@
+[
+  {
+    "query_id": "Q16",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "docstring",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_39_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 39,
+            "text": " strings (\"\"\"). Common \nelements of a docstring include a one-line summary, a blank line, and a longer description. \nCHECKPOINT \nVacations docstring \nVacations docstring; ch 1, video 13 (https://www.openstax.org/r/docstring) \nCONCEPTS IN PRACTICE \nDocumentation \n7 . The main purpose of writing docstrings is to . . . \na. summarize the program's purpose or usage. \nb. explain how each part of the code works. \nc. maintain a list of ideas for new features. \n8 . Which of the following is NOT a docstri",
+            "metadata": {
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 39,
+              "chunk_type": "fixed"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_45_fixed_4",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 45,
+            "text": "te docstring at the top of the program. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-9-chapter-summary) \nTRY IT \n1.9 • Chapter summary 35",
+            "metadata": {
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 45,
+              "document_id": "python_openstax",
+              "chunk_type": "fixed"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_39_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 39,
+            "text": "c. insert a # at the beginning of the line. \nDocumentation \nPython programs may optionally begin with a string known as a docstring. A docstring is documentation \nwritten for others who will use the program but not necessarily read the source code. Most of the official \ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings. \nDocumentation can be long, so docstrings are generally written as multi-line strings (\"\"\"). Common \nelements of a docstring in",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "1",
+              "page": 39,
+              "document_id": "python_openstax"
+            },
+            "score": 0.031746031746031744,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_39_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 39]\n strings (\"\"\"). Common \nelements of a docstring include a one-line summary, a blank line, and a longer description. \nCHECKPOINT \nVacations docstring \nVacations docstring; ch 1, video 13 (https://www.openstax.org/r/docstring) \nCONCEPTS IN PRACTICE \nDocumentation \n7 . The main purpose of writing docstrings is to . . . \na. summarize the program's purpose or usage. \nb. explain how each part of the code works. \nc. maintain a list of ideas for new features. \n8 . Which of the following is NOT a docstri\n\n[python_openstax_45_fixed_4 | https://openstax.org/details/books/introduction-python-programming | page 45]\nte docstring at the top of the program. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-9-chapter-summary) \nTRY IT \n1.9 • Chapter summary 35\n\n[python_openstax_39_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 39]\nc. insert a # at the beginning of the line. \nDocumentation \nPython programs may optionally begin with a string known as a docstring. A docstring is documentation \nwritten for others who will use the program but not necessarily read the source code. Most of the official \ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings. \nDocumentation can be long, so docstrings are generally written as multi-line strings (\"\"\"). Common \nelements of a docstring in",
+        "context_ids": [
+          "python_openstax_39_fixed_1",
+          "python_openstax_45_fixed_4",
+          "python_openstax_39_fixed_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "purpose of docstring",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_39_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 39,
+            "text": " strings (\"\"\"). Common \nelements of a docstring include a one-line summary, a blank line, and a longer description. \nCHECKPOINT \nVacations docstring \nVacations docstring; ch 1, video 13 (https://www.openstax.org/r/docstring) \nCONCEPTS IN PRACTICE \nDocumentation \n7 . The main purpose of writing docstrings is to . . . \na. summarize the program's purpose or usage. \nb. explain how each part of the code works. \nc. maintain a list of ideas for new features. \n8 . Which of the following is NOT a docstri",
+            "metadata": {
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 39,
+              "chunk_type": "fixed"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_39_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 39,
+            "text": "c. insert a # at the beginning of the line. \nDocumentation \nPython programs may optionally begin with a string known as a docstring. A docstring is documentation \nwritten for others who will use the program but not necessarily read the source code. Most of the official \ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings. \nDocumentation can be long, so docstrings are generally written as multi-line strings (\"\"\"). Common \nelements of a docstring in",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "1",
+              "page": 39,
+              "document_id": "python_openstax"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_45_fixed_4",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 45,
+            "text": "te docstring at the top of the program. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-9-chapter-summary) \nTRY IT \n1.9 • Chapter summary 35",
+            "metadata": {
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 45,
+              "document_id": "python_openstax",
+              "chunk_type": "fixed"
+            },
+            "score": 0.03125763125763126,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_39_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 39]\n strings (\"\"\"). Common \nelements of a docstring include a one-line summary, a blank line, and a longer description. \nCHECKPOINT \nVacations docstring \nVacations docstring; ch 1, video 13 (https://www.openstax.org/r/docstring) \nCONCEPTS IN PRACTICE \nDocumentation \n7 . The main purpose of writing docstrings is to . . . \na. summarize the program's purpose or usage. \nb. explain how each part of the code works. \nc. maintain a list of ideas for new features. \n8 . Which of the following is NOT a docstri\n\n[python_openstax_45_fixed_4 | https://openstax.org/details/books/introduction-python-programming | page 45]\nte docstring at the top of the program. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-9-chapter-summary) \nTRY IT \n1.9 • Chapter summary 35\n\n[python_openstax_39_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 39]\nc. insert a # at the beginning of the line. \nDocumentation \nPython programs may optionally begin with a string known as a docstring. A docstring is documentation \nwritten for others who will use the program but not necessarily read the source code. Most of the official \ndocumentation at docs.python.org (https://openstax.org/r/100docstrings) is generated from docstrings. \nDocumentation can be long, so docstrings are generally written as multi-line strings (\"\"\"). Common \nelements of a docstring in",
+        "context_ids": [
+          "python_openstax_39_fixed_1",
+          "python_openstax_45_fixed_4",
+          "python_openstax_39_fixed_0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 7808.423200003745
+  },
+  {
+    "query_id": "Q17",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "interpreter needed Chapter 2",
+        "filter": {
+          "chapter": "2"
+        },
+        "results": [
+          {
+            "id": "python_openstax_47_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 47,
+            "text": "Figure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "2",
+              "page": 47,
+              "document_id": "python_openstax",
+              "chunk_type": "fixed"
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_50_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 50,
+            "text": "ng.\") \n• print(\"That's all folks!) \nThe expected output, after correcting typos, should look like: \n• Easy as 123 \n• y divided by 2 is 228.0 \n• (no error/output) \n• Stacie is 6 letters long. \n• That's all folks! \n2.2 Type conversion \nLearning objectives \nBy the end of this section you should be able to \n• Explain how the interpreter uses implicit type conversion. \n• Use explicit type conversion with int(), float(), and str(). \nImplicit type conversion \nCommon operations update a variable such th",
+            "metadata": {
+              "chunk_type": "fixed",
+              "document_id": "python_openstax",
+              "page": 50,
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "2"
+            },
+            "score": 0.031099324975891997,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_48_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 48,
+            "text": "lating the source code and displays an error message. \nMost development environments include a Python shell for experimenting with code interactively. A shell, also \ncalled a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter \nusually runs an entire program all at once. But the interpreter can run one line of code at a time within a \nPython shell. \nCHECKPOINT \nRunning a Python shell \nRunning a Python shell; ch 2, video 1 (https://www.openstax.or",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 48,
+              "chapter": "2",
+              "chunk_type": "fixed"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_47_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 47]\nFigure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression\n\n[python_openstax_50_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 50]\nng.\") \n• print(\"That's all folks!) \nThe expected output, after correcting typos, should look like: \n• Easy as 123 \n• y divided by 2 is 228.0 \n• (no error/output) \n• Stacie is 6 letters long. \n• That's all folks! \n2.2 Type conversion \nLearning objectives \nBy the end of this section you should be able to \n• Explain how the interpreter uses implicit type conversion. \n• Use explicit type conversion with int(), float(), and str(). \nImplicit type conversion \nCommon operations update a variable such th",
+        "context_ids": [
+          "python_openstax_47_fixed_0",
+          "python_openstax_50_fixed_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "interpreter purpose Chapter 2",
+        "filter": {
+          "chapter": "2"
+        },
+        "results": [
+          {
+            "id": "python_openstax_47_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 47,
+            "text": "Figure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "2",
+              "page": 47,
+              "document_id": "python_openstax",
+              "chunk_type": "fixed"
+            },
+            "score": 0.031746031746031744,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_50_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 50,
+            "text": "ng.\") \n• print(\"That's all folks!) \nThe expected output, after correcting typos, should look like: \n• Easy as 123 \n• y divided by 2 is 228.0 \n• (no error/output) \n• Stacie is 6 letters long. \n• That's all folks! \n2.2 Type conversion \nLearning objectives \nBy the end of this section you should be able to \n• Explain how the interpreter uses implicit type conversion. \n• Use explicit type conversion with int(), float(), and str(). \nImplicit type conversion \nCommon operations update a variable such th",
+            "metadata": {
+              "chunk_type": "fixed",
+              "document_id": "python_openstax",
+              "page": 50,
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "2"
+            },
+            "score": 0.030117753623188408,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_50_fixed_3",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 50,
+            "text": "rsion \nCommon operations update a variable such that the variable's data type needs to be changed. Ex: A GPS first \nassigns distance with 250, an integer. After a wrong turn, the GPS assigns distance with 252.5, a float. The \nPython interpreter uses implicit type conversion to automatically convert one data type to another. Once \ndistance is assigned with 252.5, the interpreter will convert distance from an integer to a float without the \nTRY IT \n40 2 • Expressions\nAccess for free at openstax.or",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 50,
+              "chunk_type": "fixed",
+              "chapter": "2",
+              "document_id": "python_openstax"
+            },
+            "score": 0.02967032967032967,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_47_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 47]\nFigure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression\n\n[python_openstax_50_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 50]\nng.\") \n• print(\"That's all folks!) \nThe expected output, after correcting typos, should look like: \n• Easy as 123 \n• y divided by 2 is 228.0 \n• (no error/output) \n• Stacie is 6 letters long. \n• That's all folks! \n2.2 Type conversion \nLearning objectives \nBy the end of this section you should be able to \n• Explain how the interpreter uses implicit type conversion. \n• Use explicit type conversion with int(), float(), and str(). \nImplicit type conversion \nCommon operations update a variable such th",
+        "context_ids": [
+          "python_openstax_47_fixed_0",
+          "python_openstax_50_fixed_2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 3509.4257999953697
+  },
+  {
+    "query_id": "Q18",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "up arrow key Python shell history",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_49_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": " two lines? \na. press the up arrow twice \nb. press the down arrow twice \nc. press the left arrow twice \nExploring the shell \nRunning code interactively is a great way to learn how Python works. Open a Python shell on your \ncomputer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any \nPython code, one line at a time, to see the result. Here are a few expressions to try: \n• x = 5 \n• 3*x - 5 \n• 3 * (x-5) \n• x \n• type(1) \n• type('1') \n• str(1) \n• int('1') \n• a",
+            "metadata": {
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 49,
+              "chunk_type": "fixed"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_49_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": "; the down arrow displays the next line. \nThat way, the user can repeat a line without having to type the line again. \nCHECKPOINT \nCorrecting a typo \nCorrecting a typo; ch 2, video 2 (https://www.openstax.org/r/correcting-typo) \nCONCEPTS IN PRACTICE \nUsing the arrow keys \n4 . Which arrow keys were needed to edit the typo? \na. only the up arrow key \nb. the up and down arrows \nc. the up and left arrows \n5 . What keys would the user press to go back two lines? \na. press the up arrow twice \nb. press",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "chunk_type": "fixed",
+              "page": 49
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_49_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": "The acronym REPL (pronounced \"rep ul\") is often used when referring to a shell. REPL stands for \"read-eval-\nprint loop,\" which describes the repetitive nature of a shell: \n1. Read/input some code \n2. Evaluate/run the code \n3. Print any results \n4. Loop back to step 1 \nMost shells maintain a history of every line of code the user types. Pressing the up or down arrow key on the \nkeyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line. \nThat way",
+            "metadata": {
+              "chapter": "2",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 49,
+              "chunk_type": "fixed",
+              "document_id": "python_openstax"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_49_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 49]\n two lines? \na. press the up arrow twice \nb. press the down arrow twice \nc. press the left arrow twice \nExploring the shell \nRunning code interactively is a great way to learn how Python works. Open a Python shell on your \ncomputer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any \nPython code, one line at a time, to see the result. Here are a few expressions to try: \n• x = 5 \n• 3*x - 5 \n• 3 * (x-5) \n• x \n• type(1) \n• type('1') \n• str(1) \n• int('1') \n• a\n\n[python_openstax_49_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 49]\n; the down arrow displays the next line. \nThat way, the user can repeat a line without having to type the line again. \nCHECKPOINT \nCorrecting a typo \nCorrecting a typo; ch 2, video 2 (https://www.openstax.org/r/correcting-typo) \nCONCEPTS IN PRACTICE \nUsing the arrow keys \n4 . Which arrow keys were needed to edit the typo? \na. only the up arrow key \nb. the up and down arrows \nc. the up and left arrows \n5 . What keys would the user press to go back two lines? \na. press the up arrow twice \nb. press",
+        "context_ids": [
+          "python_openstax_49_fixed_2",
+          "python_openstax_49_fixed_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "up arrow key Python shell history behavior",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_49_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": " two lines? \na. press the up arrow twice \nb. press the down arrow twice \nc. press the left arrow twice \nExploring the shell \nRunning code interactively is a great way to learn how Python works. Open a Python shell on your \ncomputer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any \nPython code, one line at a time, to see the result. Here are a few expressions to try: \n• x = 5 \n• 3*x - 5 \n• 3 * (x-5) \n• x \n• type(1) \n• type('1') \n• str(1) \n• int('1') \n• a",
+            "metadata": {
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 49,
+              "chunk_type": "fixed"
+            },
+            "score": 0.032266458495966696,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_49_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": "; the down arrow displays the next line. \nThat way, the user can repeat a line without having to type the line again. \nCHECKPOINT \nCorrecting a typo \nCorrecting a typo; ch 2, video 2 (https://www.openstax.org/r/correcting-typo) \nCONCEPTS IN PRACTICE \nUsing the arrow keys \n4 . Which arrow keys were needed to edit the typo? \na. only the up arrow key \nb. the up and down arrows \nc. the up and left arrows \n5 . What keys would the user press to go back two lines? \na. press the up arrow twice \nb. press",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "chunk_type": "fixed",
+              "page": 49
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_49_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 49,
+            "text": "The acronym REPL (pronounced \"rep ul\") is often used when referring to a shell. REPL stands for \"read-eval-\nprint loop,\" which describes the repetitive nature of a shell: \n1. Read/input some code \n2. Evaluate/run the code \n3. Print any results \n4. Loop back to step 1 \nMost shells maintain a history of every line of code the user types. Pressing the up or down arrow key on the \nkeyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line. \nThat way",
+            "metadata": {
+              "chapter": "2",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 49,
+              "chunk_type": "fixed",
+              "document_id": "python_openstax"
+            },
+            "score": 0.031544957774465976,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_49_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 49]\n two lines? \na. press the up arrow twice \nb. press the down arrow twice \nc. press the left arrow twice \nExploring the shell \nRunning code interactively is a great way to learn how Python works. Open a Python shell on your \ncomputer, or use the one at python.org/shell (https://openstax.org/r/100pythonshell). Then enter any \nPython code, one line at a time, to see the result. Here are a few expressions to try: \n• x = 5 \n• 3*x - 5 \n• 3 * (x-5) \n• x \n• type(1) \n• type('1') \n• str(1) \n• int('1') \n• a\n\n[python_openstax_49_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 49]\n; the down arrow displays the next line. \nThat way, the user can repeat a line without having to type the line again. \nCHECKPOINT \nCorrecting a typo \nCorrecting a typo; ch 2, video 2 (https://www.openstax.org/r/correcting-typo) \nCONCEPTS IN PRACTICE \nUsing the arrow keys \n4 . Which arrow keys were needed to edit the typo? \na. only the up arrow key \nb. the up and down arrows \nc. the up and left arrows \n5 . What keys would the user press to go back two lines? \na. press the up arrow twice \nb. press",
+        "context_ids": [
+          "python_openstax_49_fixed_2",
+          "python_openstax_49_fixed_1"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 3442.6553000012063
+  },
+  {
+    "query_id": "Q19",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "floor division modulo convert centimeters meters leftover centimeters",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_60_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 60,
+            "text": "Unit conversions \nDivision is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is \ndivided by 100. Ex: 300 centimeters divided by 100 is 3 meters. \nAmounts often do not divide evenly as integers. 193 centimeters is 1.93 meters, or 1 meter and 93 \ncentimeters. A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100. \nPrograms often use floor division",
+            "metadata": {
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "chunk_type": "fixed",
+              "page": 60,
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_60_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 60,
+            "text": ", is 193 % 100. \nPrograms often use floor division and modulo together. If one line of code floor divides by m, the next line will \nlikely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting \ncentimeters to meters, the modulus is 100. \nCHECKPOINT \nMoney and time \nMoney and time; ch 2, video 9 (https://www.openstax.org/r/money-time) \nCONCEPTS IN PRACTICE \nUnit conversions \n5 . What is the modulus for converting minutes to hours? \na. 40 \nb. 60 \nc. 280 \n",
+            "metadata": {
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "2",
+              "page": 60
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_59_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 59,
+            "text": "2.5 Dividing integers \nLearning objectives \nBy the end of this section you should be able to \n• Evaluate expressions that involve floor division and modulo. \n• Use the modulo operator to convert between units of measure. \nDivision and modulo \nPython provides two ways to divide numbers: \n• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 becau",
+            "metadata": {
+              "chapter": "2",
+              "page": 59,
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_60_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 60]\nUnit conversions \nDivision is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is \ndivided by 100. Ex: 300 centimeters divided by 100 is 3 meters. \nAmounts often do not divide evenly as integers. 193 centimeters is 1.93 meters, or 1 meter and 93 \ncentimeters. A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100. \nPrograms often use floor division\n\n[python_openstax_60_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 60]\n, is 193 % 100. \nPrograms often use floor division and modulo together. If one line of code floor divides by m, the next line will \nlikely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting \ncentimeters to meters, the modulus is 100. \nCHECKPOINT \nMoney and time \nMoney and time; ch 2, video 9 (https://www.openstax.org/r/money-time) \nCONCEPTS IN PRACTICE \nUnit conversions \n5 . What is the modulus for converting minutes to hours? \na. 40 \nb. 60 \nc. 280 \n",
+        "context_ids": [
+          "python_openstax_60_fixed_0",
+          "python_openstax_60_fixed_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "floor division modulo centimeters meters conversion",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_60_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 60,
+            "text": "Unit conversions \nDivision is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is \ndivided by 100. Ex: 300 centimeters divided by 100 is 3 meters. \nAmounts often do not divide evenly as integers. 193 centimeters is 1.93 meters, or 1 meter and 93 \ncentimeters. A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100. \nPrograms often use floor division",
+            "metadata": {
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "chunk_type": "fixed",
+              "page": 60,
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_60_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 60,
+            "text": ", is 193 % 100. \nPrograms often use floor division and modulo together. If one line of code floor divides by m, the next line will \nlikely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting \ncentimeters to meters, the modulus is 100. \nCHECKPOINT \nMoney and time \nMoney and time; ch 2, video 9 (https://www.openstax.org/r/money-time) \nCONCEPTS IN PRACTICE \nUnit conversions \n5 . What is the modulus for converting minutes to hours? \na. 40 \nb. 60 \nc. 280 \n",
+            "metadata": {
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "2",
+              "page": 60
+            },
+            "score": 0.03200204813108039,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_59_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 59,
+            "text": "2.5 Dividing integers \nLearning objectives \nBy the end of this section you should be able to \n• Evaluate expressions that involve floor division and modulo. \n• Use the modulo operator to convert between units of measure. \nDivision and modulo \nPython provides two ways to divide numbers: \n• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 becau",
+            "metadata": {
+              "chapter": "2",
+              "page": 59,
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed"
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_60_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 60]\nUnit conversions \nDivision is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is \ndivided by 100. Ex: 300 centimeters divided by 100 is 3 meters. \nAmounts often do not divide evenly as integers. 193 centimeters is 1.93 meters, or 1 meter and 93 \ncentimeters. A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100. \nPrograms often use floor division\n\n[python_openstax_60_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 60]\n, is 193 % 100. \nPrograms often use floor division and modulo together. If one line of code floor divides by m, the next line will \nlikely modulo by m. The unit m by which an amount is divided is called the modulus. Ex: When converting \ncentimeters to meters, the modulus is 100. \nCHECKPOINT \nMoney and time \nMoney and time; ch 2, video 9 (https://www.openstax.org/r/money-time) \nCONCEPTS IN PRACTICE \nUnit conversions \n5 . What is the modulus for converting minutes to hours? \na. 40 \nb. 60 \nc. 280 \n",
+        "context_ids": [
+          "python_openstax_60_fixed_0",
+          "python_openstax_60_fixed_1"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 4342.400199995609
+  },
+  {
+    "query_id": "Q20",
+    "split": "test",
+    "status": "answered",
+    "answer": "The function `math.floor(x)` computes the largest integer less than or equal to `x`. For example, `math.floor(7.4)` returns `7`, and `math.floor(-7.4)` returns `-8` [python_openstax_64_fixed_0].",
+    "citations": [
+      "python_openstax_64_fixed_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "math.floor(x)",
+        "filter": {
+          "chapter": "2"
+        },
+        "results": [
+          {
+            "id": "python_openstax_64_fixed_0",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 64,
+            "text": "Function \nDescription \nExamples \nNumber-theoretic \nmath.ceil(x) \nThe ceiling of x: the smallest integer greater than or \nequal to x. \nmath.ceil(7.4) \n 8 \nmath.ceil(-7.4) \n -7 \nmath.floor(x) \nThe floor of x: the largest integer less than or equal \nto x. \nmath.floor(7.4) \n 7 \nmath.floor(-7.4) \n -8 \nPower and logarithmic \nmath.log(x) \nThe natural logarithm of x (to base e). \nmath.log(math.e) \n 1.0 \nmath.log(0) \n ValueError: \nmath domain error \nmath.log(x, \nbase) \nThe logarithm of x to the given bas",
+            "metadata": {
+              "document_id": "python_openstax",
+              "page": 64,
+              "chapter": "2",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed"
+            },
+            "score": 0.03278688524590164,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_74_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 74,
+            "text": "loat or integer) to a string. \nround(x, \nndigits) \nRounds x to ndigits places after the decimal point. If ndigits is omitted, returns the \nnearest integer to x. \nOperator \nDescription \ns * n \n(Repetition) \nCreates a string with n copies of s. Ex: \"Ha\" * 3 is \"HaHaHa\". \nx / y \n(Real division) \nDivides x by y and returns the entire result as a float. Ex: 7 / 4 is 1.75. \nx // y \n(Floor division) \nDivides x by y and returns the quotient as an integer. Ex: 7 // 4 is 1. \nx % y \n(Modulo) \nDivides x by ",
+            "metadata": {
+              "chunk_type": "fixed",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "2",
+              "document_id": "python_openstax",
+              "page": 74
+            },
+            "score": 0.031754032258064516,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_64_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 64,
+            "text": "log(x, \nbase) \nThe logarithm of x to the given base. \nmath.log(8, 2) \n 3.0 \nmath.log(10000, 10) \n 4.0 \nmath.pow(x, \ny) \nx raised to the power y. Unlike the ** operator, \nmath.pow() converts x and y to type float. \nmath.pow(3, 0) \n 1.0 \nmath.pow(3, 3) \n 27.0 \nmath.sqrt(x) \nThe square root of x. \nmath.sqrt(9) \n 3.0 \nmath.sqrt(-9) \nValueError: math domain \nerror \nTrigonometric \nmath.cos(x) \nThe cosine of x radians. \nmath.cos(0) \n 1.0 \nmath.cos(math.pi) \n -1.0 \nmath.sin(x) \nThe sine of x radians. \nm",
+            "metadata": {
+              "document_id": "python_openstax",
+              "chapter": "2",
+              "chunk_type": "fixed",
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "page": 64
+            },
+            "score": 0.0315136476426799,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_64_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 64]\nFunction \nDescription \nExamples \nNumber-theoretic \nmath.ceil(x) \nThe ceiling of x: the smallest integer greater than or \nequal to x. \nmath.ceil(7.4) \n 8 \nmath.ceil(-7.4) \n -7 \nmath.floor(x) \nThe floor of x: the largest integer less than or equal \nto x. \nmath.floor(7.4) \n 7 \nmath.floor(-7.4) \n -8 \nPower and logarithmic \nmath.log(x) \nThe natural logarithm of x (to base e). \nmath.log(math.e) \n 1.0 \nmath.log(0) \n ValueError: \nmath domain error \nmath.log(x, \nbase) \nThe logarithm of x to the given bas\n\n[python_openstax_74_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 74]\nloat or integer) to a string. \nround(x, \nndigits) \nRounds x to ndigits places after the decimal point. If ndigits is omitted, returns the \nnearest integer to x. \nOperator \nDescription \ns * n \n(Repetition) \nCreates a string with n copies of s. Ex: \"Ha\" * 3 is \"HaHaHa\". \nx / y \n(Real division) \nDivides x by y and returns the entire result as a float. Ex: 7 / 4 is 1.75. \nx // y \n(Floor division) \nDivides x by y and returns the quotient as an integer. Ex: 7 // 4 is 1. \nx % y \n(Modulo) \nDivides x by ",
+        "context_ids": [
+          "python_openstax_64_fixed_0",
+          "python_openstax_74_fixed_1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_ms": 2312.789799994789
+  },
+  {
+    "query_id": "Q23",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "create and activate a virtual environment using venv",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_48_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 48,
+            "text": "lating the source code and displays an error message. \nMost development environments include a Python shell for experimenting with code interactively. A shell, also \ncalled a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter \nusually runs an entire program all at once. But the interpreter can run one line of code at a time within a \nPython shell. \nCHECKPOINT \nRunning a Python shell \nRunning a Python shell; ch 2, video 1 (https://www.openstax.or",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 48,
+              "chapter": "2",
+              "chunk_type": "fixed"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_71_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 71,
+            "text": "w, JavaScript has a lot in common with Python, but it is sort of a \nrestricted subset.\" \n2. \"The second stream of material that is going to come out of this project is a \nprogramming environment and a set of programming tools where we really want to \nfocus again on the needs of the newbie. This environment is going to have to be \nextremely user-friendly.\" \n3. \"I have this hope that there is a better way. Higher-level tools that actually \nlet you see the structure of the software more clearly wil",
+            "metadata": {
+              "document_id": "python_openstax",
+              "page": 71,
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "2"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_24_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 24,
+            "text": "t this is different from \nthe equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement \nis a variable, and the right side is the value the variable is assigned. \nCHECKPOINT \nAssigning and using variables \nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables) \nCONCEPTS IN PRACTICE \nAssigning and using variables \n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "1",
+              "page": 24,
+              "document_id": "python_openstax"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_48_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 48]\nlating the source code and displays an error message. \nMost development environments include a Python shell for experimenting with code interactively. A shell, also \ncalled a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter \nusually runs an entire program all at once. But the interpreter can run one line of code at a time within a \nPython shell. \nCHECKPOINT \nRunning a Python shell \nRunning a Python shell; ch 2, video 1 (https://www.openstax.or\n\n[python_openstax_71_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 71]\nw, JavaScript has a lot in common with Python, but it is sort of a \nrestricted subset.\" \n2. \"The second stream of material that is going to come out of this project is a \nprogramming environment and a set of programming tools where we really want to \nfocus again on the needs of the newbie. This environment is going to have to be \nextremely user-friendly.\" \n3. \"I have this hope that there is a better way. Higher-level tools that actually \nlet you see the structure of the software more clearly wil",
+        "context_ids": [
+          "python_openstax_48_fixed_2",
+          "python_openstax_71_fixed_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "venv create activate virtual environment",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_48_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 48,
+            "text": "lating the source code and displays an error message. \nMost development environments include a Python shell for experimenting with code interactively. A shell, also \ncalled a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter \nusually runs an entire program all at once. But the interpreter can run one line of code at a time within a \nPython shell. \nCHECKPOINT \nRunning a Python shell \nRunning a Python shell; ch 2, video 1 (https://www.openstax.or",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 48,
+              "chapter": "2",
+              "chunk_type": "fixed"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_71_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 71,
+            "text": "w, JavaScript has a lot in common with Python, but it is sort of a \nrestricted subset.\" \n2. \"The second stream of material that is going to come out of this project is a \nprogramming environment and a set of programming tools where we really want to \nfocus again on the needs of the newbie. This environment is going to have to be \nextremely user-friendly.\" \n3. \"I have this hope that there is a better way. Higher-level tools that actually \nlet you see the structure of the software more clearly wil",
+            "metadata": {
+              "document_id": "python_openstax",
+              "page": 71,
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chunk_type": "fixed",
+              "chapter": "2"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_18_fixed_1",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 18,
+            "text": "omputer can run. Programs help people accomplish everyday tasks, create new technology, and have fun. \nThe goal of this book is to teach introductory programming and problem solving. Writing programs is a \ncreative activity, inherently useful, and rewarding! No prior background in computer science is necessary to \nread this book. Many different types of programs exist, as shown in the illustration below. This book will focus \non general purpose programs that typically run \"behind the scenes.\" \nC",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "document_id": "python_openstax",
+              "page": 18,
+              "chunk_type": "fixed",
+              "chapter": "1"
+            },
+            "score": 0.016129032258064516,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_48_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 48]\nlating the source code and displays an error message. \nMost development environments include a Python shell for experimenting with code interactively. A shell, also \ncalled a console or terminal, is a program that allows direct interaction with an interpreter. The interpreter \nusually runs an entire program all at once. But the interpreter can run one line of code at a time within a \nPython shell. \nCHECKPOINT \nRunning a Python shell \nRunning a Python shell; ch 2, video 1 (https://www.openstax.or\n\n[python_openstax_71_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 71]\nw, JavaScript has a lot in common with Python, but it is sort of a \nrestricted subset.\" \n2. \"The second stream of material that is going to come out of this project is a \nprogramming environment and a set of programming tools where we really want to \nfocus again on the needs of the newbie. This environment is going to have to be \nextremely user-friendly.\" \n3. \"I have this hope that there is a better way. Higher-level tools that actually \nlet you see the structure of the software more clearly wil",
+        "context_ids": [
+          "python_openstax_48_fixed_2",
+          "python_openstax_71_fixed_2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 6923.812799999723
+  },
+  {
+    "query_id": "Q24",
+    "split": "test",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Python garbage collector detect reference cycles",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_40_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 40,
+            "text": "ion-python-programming/pages/\n1-7-comments) \n1.8 Why Python? \nLearning objectives \nBy the end of this section you should be able to \n• Name two historical facts about how Python was first created. \n• Describe two ways Python is considered a popular language. \nHistorical background \nPython has an interesting history. In 1982, Guido van Rossum (https://openstax.org/r/100vanRossum), the \ncreator of Python, started working at CWI (https://openstax.org/r/100CWI), a Dutch national research institute. ",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "1",
+              "chunk_type": "fixed",
+              "document_id": "python_openstax",
+              "page": 40
+            },
+            "score": 0.030776515151515152,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_41_fixed_5",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 41,
+            "text": "ages every year since \n2004. In October 2021, Python became the #1 language on the TIOBE index. No other language but C and Java \n1.8 • Why Python? 31",
+            "metadata": {
+              "chapter": "1",
+              "chunk_type": "fixed",
+              "page": 41,
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_44_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 44,
+            "text": "ngs, to summarize a program's purpose \nor usage. \nTable 1.6 Chapter 1 reference. \nFun facts \nWrite a program that assigns a variable named number to any integer of your choice. Ex: number = 74. \nThen, use this variable to calculate and output the following results: \nTRY IT \n34 1 • Statements\nAccess for free at openstax.org",
+            "metadata": {
+              "document_id": "python_openstax",
+              "page": 44,
+              "chunk_type": "fixed",
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_40_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 40]\nion-python-programming/pages/\n1-7-comments) \n1.8 Why Python? \nLearning objectives \nBy the end of this section you should be able to \n• Name two historical facts about how Python was first created. \n• Describe two ways Python is considered a popular language. \nHistorical background \nPython has an interesting history. In 1982, Guido van Rossum (https://openstax.org/r/100vanRossum), the \ncreator of Python, started working at CWI (https://openstax.org/r/100CWI), a Dutch national research institute. \n\n[python_openstax_41_fixed_5 | https://openstax.org/details/books/introduction-python-programming | page 41]\nages every year since \n2004. In October 2021, Python became the #1 language on the TIOBE index. No other language but C and Java \n1.8 • Why Python? 31\n\n[python_openstax_44_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 44]\nngs, to summarize a program's purpose \nor usage. \nTable 1.6 Chapter 1 reference. \nFun facts \nWrite a program that assigns a variable named number to any integer of your choice. Ex: number = 74. \nThen, use this variable to calculate and output the following results: \nTRY IT \n34 1 • Statements\nAccess for free at openstax.org",
+        "context_ids": [
+          "python_openstax_40_fixed_2",
+          "python_openstax_41_fixed_5",
+          "python_openstax_44_fixed_2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Python garbage collector reference cycles detection",
+        "filter": null,
+        "results": [
+          {
+            "id": "python_openstax_40_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 40,
+            "text": "ion-python-programming/pages/\n1-7-comments) \n1.8 Why Python? \nLearning objectives \nBy the end of this section you should be able to \n• Name two historical facts about how Python was first created. \n• Describe two ways Python is considered a popular language. \nHistorical background \nPython has an interesting history. In 1982, Guido van Rossum (https://openstax.org/r/100vanRossum), the \ncreator of Python, started working at CWI (https://openstax.org/r/100CWI), a Dutch national research institute. ",
+            "metadata": {
+              "source": "https://openstax.org/details/books/introduction-python-programming",
+              "chapter": "1",
+              "chunk_type": "fixed",
+              "document_id": "python_openstax",
+              "page": 40
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_41_fixed_5",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 41,
+            "text": "ages every year since \n2004. In October 2021, Python became the #1 language on the TIOBE index. No other language but C and Java \n1.8 • Why Python? 31",
+            "metadata": {
+              "chapter": "1",
+              "chunk_type": "fixed",
+              "page": 41,
+              "document_id": "python_openstax",
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "python_openstax_44_fixed_2",
+            "source_id": "python_openstax",
+            "source": "https://openstax.org/details/books/introduction-python-programming",
+            "page": 44,
+            "text": "ngs, to summarize a program's purpose \nor usage. \nTable 1.6 Chapter 1 reference. \nFun facts \nWrite a program that assigns a variable named number to any integer of your choice. Ex: number = 74. \nThen, use this variable to calculate and output the following results: \nTRY IT \n34 1 • Statements\nAccess for free at openstax.org",
+            "metadata": {
+              "document_id": "python_openstax",
+              "page": 44,
+              "chunk_type": "fixed",
+              "chapter": "1",
+              "source": "https://openstax.org/details/books/introduction-python-programming"
+            },
+            "score": 0.01639344262295082,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[python_openstax_40_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 40]\nion-python-programming/pages/\n1-7-comments) \n1.8 Why Python? \nLearning objectives \nBy the end of this section you should be able to \n• Name two historical facts about how Python was first created. \n• Describe two ways Python is considered a popular language. \nHistorical background \nPython has an interesting history. In 1982, Guido van Rossum (https://openstax.org/r/100vanRossum), the \ncreator of Python, started working at CWI (https://openstax.org/r/100CWI), a Dutch national research institute. \n\n[python_openstax_41_fixed_5 | https://openstax.org/details/books/introduction-python-programming | page 41]\nages every year since \n2004. In October 2021, Python became the #1 language on the TIOBE index. No other language but C and Java \n1.8 • Why Python? 31\n\n[python_openstax_44_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 44]\nngs, to summarize a program's purpose \nor usage. \nTable 1.6 Chapter 1 reference. \nFun facts \nWrite a program that assigns a variable named number to any integer of your choice. Ex: number = 74. \nThen, use this variable to calculate and output the following results: \nTRY IT \n34 1 • Statements\nAccess for free at openstax.org",
+        "context_ids": [
+          "python_openstax_40_fixed_2",
+          "python_openstax_41_fixed_5",
+          "python_openstax_44_fixed_2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_ms": 6603.920299996389
+  }
+]

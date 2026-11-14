@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Q21",
+    "split": "dev",
+    "question": "How does Python's asyncio event loop schedule coroutines?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q22",
+    "split": "dev",
+    "question": "How does multiprocessing.Pool distribute tasks across processes?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "question": "How do you create and activate a virtual environment using venv?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "question": "How does Python's garbage collector detect reference cycles?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  }
+]

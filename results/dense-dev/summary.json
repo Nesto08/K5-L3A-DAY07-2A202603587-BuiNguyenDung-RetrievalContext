@@ -1,0 +1,14 @@
+{
+  "strategy": "dense",
+  "split": "dev",
+  "n": 15,
+  "hit1": 6,
+  "hit3": 13,
+  "context_hit": 6,
+  "avg_context_chars": 593.8666666666667,
+  "median_ms": 209.85339999970165,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "query_embedding_tokens": 151,
+  "service_cost_usd": null
+}

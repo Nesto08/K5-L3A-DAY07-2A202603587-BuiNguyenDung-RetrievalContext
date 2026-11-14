@@ -1,0 +1,76 @@
+[
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "What is a docstring used for?",
+    "expected_answer": "Documentation for people who use the program without necessarily reading the source.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 39,
+        "evidence": "A docstring is documentation \nwritten for others who will use the program"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "In Chapter 2, why is an interpreter needed?",
+    "expected_answer": "To run/translate high-level Python code into operations computers can execute.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 48,
+        "evidence": "written in high-level languages must be translated into machine code to run. This translation process can \nhappen all at once, or a little at a time, depending on the language. \nPython is an interpreted language: the source code is translated one line at a time while the program is \nrunning. The Python interpreter translates source code into machine code and runs the resulting program."
+      }
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "How does the up arrow key behave in the Python shell history?",
+    "expected_answer": "It displays the previous line.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 49,
+        "evidence": "The up arrow displays the previous line;"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "How do floor division and modulo help convert centimeters into meters and leftover centimeters?",
+    "expected_answer": "Floor division gives whole meters; modulo gives the leftover centimeters.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 60,
+        "evidence": "A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "In Chapter 2, what does math.floor(x) compute?",
+    "expected_answer": "The largest integer less than or equal to x.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 64,
+        "evidence": "The floor of x: the largest integer less than or equal \nto x."
+      }
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  }
+]

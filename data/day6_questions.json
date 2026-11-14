@@ -1,0 +1,376 @@
+{
+  "dataset": "OpenStax Python chapter 1-2",
+  "split_rule": "Q01-Q15 dev; Q16-Q20 test (fixed before running experiments)",
+  "filter_field": "chapter (book chapter from question context)",
+  "notes": "Grounding anchors were verified against normalized PDF text. Human review of each evidence span and gold answer is still needed before benchmark freeze.",
+  "questions": [
+    {
+      "question_id": "Q01",
+      "split": "dev",
+      "question": "Why is Python popular for practical programming?",
+      "gold_answer": "Many available libraries and concise, straightforward syntax.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 19,
+          "printed_page": 9,
+          "evidence": "Leading tech giants like Google, Apple, NASA, Instagram, Pixar, and others use Python extensively. One reason why Python is popular is because many libraries exist for doing real work. A library is a collection of code that can be used in other programs. Python comes w",
+          "evidence_anchor": "One reason why Python is popular is because many libraries exist for doing real work."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q02",
+      "split": "dev",
+      "question": "What does the sep option in print() control?",
+      "gold_answer": "It customizes the separator between printed values.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 21,
+          "printed_page": 11,
+          "evidence": "nted in the same statement. By default, each value is separated by a space character in the output. The sep option can be used to change this behavior. By default, the print() function adds a newline character at the end of the output. A newline character tells the disp",
+          "evidence_anchor": "The sep option can be used to change this behavior."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "paraphrase",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q03",
+      "split": "dev",
+      "question": "How do you prevent print() from automatically starting a new line?",
+      "gold_answer": "Set the end option to continue printing on the same line.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 21,
+          "printed_page": 11,
+          "evidence": "character at the end of the output. A newline character tells the display to move to the next line. The end option can be used to continue printing on the same line. Code Output print(\"Today is Monday.\") print(\"I like string beans.\") Today is Monday. I like string beans",
+          "evidence_anchor": "The end option can be used to continue printing on the same line."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q04",
+      "split": "dev",
+      "question": "What does input() do in a Python program?",
+      "gold_answer": "It reads one line of input from the user.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 22,
+          "printed_page": 12,
+          "evidence": "n memory. In the statement above, variable can be replaced with any name the programmer chooses. 2. The input() function reads one line of input from the user. A function is a named, reusable block of code that performs a task when called. The input is stored in the com",
+          "evidence_anchor": "The input() function reads one line of input from the user."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q05",
+      "split": "dev",
+      "question": "What is the meaning of the assignment operator = in Python?",
+      "gold_answer": "It assigns the right-hand value to the variable on the left.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 24,
+          "printed_page": 14,
+          "evidence": "). Note that this is different from the equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement is a variable, and the right side is the value the variable is assigned. CHECKPOINT Assigning and using variables Assigning and using variable",
+          "evidence_anchor": "The left side of the assignment statement is a variable, and the right side is the value the variable is assigned."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q06",
+      "split": "dev",
+      "question": "What naming style does the Python style guide recommend for variables?",
+      "gold_answer": "snake_case: lowercase words separated by underscores.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 25,
+          "printed_page": 15,
+          "evidence": "ith a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variable names in snake case, which is all lowercase with underscores in between each word, such as first_name or total_price. A n",
+          "evidence_anchor": "Python's style guide recommends writing variable names in snake case"
+        }
+      ],
+      "metadata_filter": {
+        "chapter": "1"
+      },
+      "question_type": "filter",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q07",
+      "split": "dev",
+      "question": "Can a Python variable name begin with a digit?",
+      "gold_answer": "No.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 25,
+          "printed_page": 15,
+          "evidence": "naming rules A variable name can consist of letters, digits, and underscores and be of any length. The name cannot start with a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style guide recommends writing variabl",
+          "evidence_anchor": "The name cannot start with a digit."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q08",
+      "split": "dev",
+      "question": "How does the book define a Python string?",
+      "gold_answer": "A sequence of characters enclosed in matching single or double quotes.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 26,
+          "printed_page": 16,
+          "evidence": "et a string's length. • Concatenate string literals and variables using the + operator. Quote marks A string is a sequence of characters enclosed by matching single (') or double (\") quotes. Ex: \"Happy birthday!\" and '21' are both strings. To include a single quote (')",
+          "evidence_anchor": "A string is a sequence of characters enclosed by matching single"
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "paraphrase",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q09",
+      "split": "dev",
+      "question": "What is string concatenation?",
+      "gold_answer": "Combining two or more strings sequentially using +.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 28,
+          "printed_page": 18,
+          "evidence": "2 has 12 digits. b. Number 12 has 2 digits. c. Number 12 has number_of_digits digits. Concatenation Concatenation is an operation that combines two or more strings sequentially with the concatenation operator (+). Ex: \"A\" + \"part\" produces the string \"Apart\". CHECKPOINT",
+          "evidence_anchor": "Concatenation is an operation that combines two or more strings sequentially"
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q10",
+      "split": "dev",
+      "question": "Which two basic numeric formats are introduced in the textbook?",
+      "gold_answer": "Integer and floating-point.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 30,
+          "printed_page": 20,
+          "evidence": "• Explain the precedence of arithmetic operators. Numeric data types Python supports two basic number formats, integer and floating-point. An integer represents a whole number, and a floating-point format represents a decimal number. The f",
+          "evidence_anchor": "Python supports two basic number formats, integer and floating-point."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q11",
+      "split": "dev",
+      "question": "Which is evaluated first: multiplication or addition?",
+      "gold_answer": "Multiplication, unless parentheses change the order.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 32,
+          "printed_page": 22,
+          "evidence": "is 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses take precedence over multiplication. Operator Description Example Result () P",
+          "evidence_anchor": "multiplication takes precedence over addition."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "paraphrase",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q12",
+      "split": "dev",
+      "question": "What does the caret symbol in a SyntaxError message indicate?",
+      "gold_answer": "Where Python found the error.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 34,
+          "printed_page": 24,
+          "evidence": "1 print \"Hello\" ^ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(\"Hello\")? The caret character (^) shows where Python found the error. Sometimes the error may be located one or two lines before where the caret symbol is shown because Python may",
+          "evidence_anchor": "The caret character (^) shows where Python found the error."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q13",
+      "split": "dev",
+      "question": "What character begins a Python comment?",
+      "gold_answer": "# (hash character).",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 37,
+          "printed_page": 27,
+          "evidence": "t explain what the code is doing. Ex: Lines 1, 8, and 10 in the following program contain comments. Each comment begins with a hash character (#). All text from the hash character to the end of the line is ignored when running the program. In contrast, hash characters i",
+          "evidence_anchor": "Each comment begins with a hash character (#)."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q14",
+      "split": "dev",
+      "question": "In Chapter 2, what does REPL stand for?",
+      "gold_answer": "Read-eval-print loop.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 49,
+          "printed_page": 39,
+          "evidence": "The acronym REPL (pronounced \"rep ul\") is often used when referring to a shell. REPL stands for \"read-eval- print loop,\" which describes the repetitive nature of a shell: 1. Read/input some code 2. Evaluate/run the code 3. Print any results 4. Loop b",
+          "evidence_anchor": "REPL stands for \"read-eval-"
+        }
+      ],
+      "metadata_filter": {
+        "chapter": "2"
+      },
+      "question_type": "filter",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q15",
+      "split": "dev",
+      "question": "How does true division differ from floor division in Python?",
+      "gold_answer": "True division uses / and returns a floating-point quotient; floor division uses // and computes the floored quotient.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 59,
+          "printed_page": 49,
+          "evidence": "convert between units of measure. Division and modulo Python provides two ways to divide numbers: • True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in 1.75. • Floor division (//) computes the quotient, or the number o",
+          "evidence_anchor": "True division (/) converts numbers to floats before dividing."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "paraphrase",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q16",
+      "split": "test",
+      "question": "What is a docstring used for?",
+      "gold_answer": "Documentation for people who use the program without necessarily reading the source.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 39,
+          "printed_page": 29,
+          "evidence": "of the line. Documentation Python programs may optionally begin with a string known as a docstring. A docstring is documentation written for others who will use the program but not necessarily read the source code. Most of the official documentation at docs.python.org (",
+          "evidence_anchor": "A docstring is documentation written for others who will use the program"
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q17",
+      "split": "test",
+      "question": "In Chapter 2, why is an interpreter needed?",
+      "gold_answer": "To run/translate high-level Python code into operations computers can execute.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 48,
+          "printed_page": 38,
+          "evidence": "interactively. • Explain the function of the up and down arrow keyboard shortcuts. The interpreter Python is a high-level language, meaning that the source code is intended for humans to understand. Computers, on the other hand, understand only low-level machine code m",
+          "evidence_anchor": "Python is a high-level language, meaning that the source code is intended for humans to understand."
+        }
+      ],
+      "metadata_filter": {
+        "chapter": "2"
+      },
+      "question_type": "filter",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q18",
+      "split": "test",
+      "question": "How does the up arrow key behave in the Python shell history?",
+      "gold_answer": "It displays the previous line.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 49,
+          "printed_page": 39,
+          "evidence": "ine of code the user types. Pressing the up or down arrow key on the keyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line. That way, the user can repeat a line without having to type the line again. CHECKPOINT Cor",
+          "evidence_anchor": "The up arrow displays the previous line;"
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "direct",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q19",
+      "split": "test",
+      "question": "How do floor division and modulo help convert centimeters into meters and leftover centimeters?",
+      "gold_answer": "Floor division gives whole meters; modulo gives the leftover centimeters.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 60,
+          "printed_page": 50,
+          "evidence": "or 1 meter and 93 centimeters. A program can use floor division and modulo to separate the units: • The quotient, 1 meter, is 193 // 100. • The remainder, 93 centimeters, is 193 % 100. Programs often use floor division and modulo together. If one line of code floor divi",
+          "evidence_anchor": "The quotient, 1 meter, is 193 // 100."
+        }
+      ],
+      "metadata_filter": null,
+      "question_type": "paraphrase",
+      "review_status": "draft_needs_human_review"
+    },
+    {
+      "question_id": "Q20",
+      "split": "test",
+      "question": "In Chapter 2, what does math.floor(x) compute?",
+      "gold_answer": "The largest integer less than or equal to x.",
+      "gold_evidence": [
+        {
+          "source_id": "python_openstax",
+          "pdf_page": 64,
+          "printed_page": 54,
+          "evidence": "the smallest integer greater than or equal to x. math.ceil(7.4) 8 math.ceil(-7.4) -7 math.floor(x) The floor of x: the largest integer less than or equal to x. math.floor(7.4) 7 math.floor(-7.4) -8 Power and logarithmic math.log(x) The natural logarithm of x (to base e",
+          "evidence_anchor": "The floor of x: the largest integer less than or equal to x."
+        }
+      ],
+      "metadata_filter": {
+        "chapter": "2"
+      },
+      "question_type": "filter",
+      "review_status": "draft_needs_human_review"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "strategy": "hybrid_rrf",
+  "split": "dev",
+  "n": 15,
+  "hit1": 9,
+  "hit3": 12,
+  "context_hit": 10,
+  "avg_context_chars": 741,
+  "median_ms": 253.91959999979008,
+  "index_seconds": 0.007540399998106295,
+  "top_k": 3,
+  "candidate_k_per_method": 10,
+  "rrf_k": 60,
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "query_embedding_tokens": 151,
+  "service_cost_usd": null
+}

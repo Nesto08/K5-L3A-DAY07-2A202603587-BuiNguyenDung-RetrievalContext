@@ -1,0 +1,14 @@
+{
+  "split": "test",
+  "n": 7,
+  "answered": 1,
+  "abstained": 6,
+  "errors": 0,
+  "model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimensions": 1536,
+  "embedding_tokens": 77,
+  "chat_input_tokens": 10469,
+  "chat_output_tokens": 486,
+  "service_cost_usd": null
+}

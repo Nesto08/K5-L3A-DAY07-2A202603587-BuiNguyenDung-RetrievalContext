@@ -1,0 +1,1187 @@
+[
+  {
+    "query_id": "Q01",
+    "split": "dev",
+    "question": "Why is Python popular for practical programming?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 19,
+        "evidence": "One reason why Python is popular is because many libraries exist for doing real work."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_19_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 19,
+        "text": "d others use Python extensively. \nOne reason why Python is popular is because many libraries exist for doing real work. A library is a collection \nof code that can be used in other programs. Python comes with an extensive Standard Library \n(https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files \nand creating summary reports. In addition, the community develops many other libraries for Python. Ex: \nPandas (https://openstax.org/r/100pandas) i",
+        "metadata": {
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "page": 19,
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_19_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 19,
+        "text": ". Ex: \nPandas (https://openstax.org/r/100pandas) is a widely used library for data analysis. \nAnother reason why Python is popular is because the syntax is concise and straightforward. The syntax of a \nlanguage defines how code must be structured. Syntax rules define the keywords, symbols, and formatting \nused in programs. Compared to other programming languages, Python is more concise and straightforward. \nEXAMPLE 1.1 \nHello world in Python and Java \nBy tradition, Hello World (https://openstax.",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 19,
+          "chunk_type": "fixed"
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_42_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 42,
+        "text": "had been #1 for the previous 20 years. \nAnother way to see Python's popularity is to analyze how frequently Python is discussed online. Stack Overflow \n(https://openstax.org/r/100overflow) is a question-and-answer website for programmers. Figure 1.3 shows the \nnumber of questions asked each month that were tagged with Python, JavaScript, and so forth. In recent \nyears, Python has become the most asked about language in programming forums. \nFigure 1.2 TIOBE programming community index. Source: ww",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "page": 42
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_19_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 19]\nd others use Python extensively. \nOne reason why Python is popular is because many libraries exist for doing real work. A library is a collection \nof code that can be used in other programs. Python comes with an extensive Standard Library \n(https://openstax.org/r/100pythlibrary) for solving everyday computing problems like extracting data from files \nand creating summary reports. In addition, the community develops many other libraries for Python. Ex: \nPandas (https://openstax.org/r/100pandas) i",
+    "context_ids": [
+      "python_openstax_19_fixed_1"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 897.7533999968728,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q02",
+    "split": "dev",
+    "question": "What does the sep option in print() control?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 21,
+        "evidence": "The sep option can be used to change this behavior."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_20_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 20,
+        "text": "tion. \n• Obtain user input using the input() function. \nBasic output \nThe print() function displays output to the user. Output is the information or result produced by a program. \nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end. \nTRY IT \n10 1 • Statements\nAccess for free at openstax.org",
+        "metadata": {
+          "chunk_type": "fixed",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "page": 20,
+          "chapter": "1"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_21_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 21,
+        "text": "Multiple values, separated by commas, can be printed in the same statement. By default, each value is \nseparated by a space character in the output. The sep option can be used to change this behavior. \nBy default, the print() function adds a newline character at the end of the output. A newline character tells \nthe display to move to the next line. The end option can be used to continue printing on the same line. \nCode \nOutput \nprint(\"Today is Monday.\") \nprint(\"I like string beans.\") \nToday is M",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "1",
+          "page": 21,
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_21_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 21,
+        "text": "nday.\") \nprint(\"I like string beans.\") \nToday is Monday. \nI like string beans. \nprint(\"Today\", \"is\", \"Monday\") \nprint(\"Today\", \"is\", \"Monday\", sep=\"...\") \nToday is Monday \nToday...is...Monday \nprint(\"Today is Monday, \", end=\"\") \nprint(\"I like string beans.\") \nToday is Monday, I like string \nbeans. \nprint(\"Today\", \"is\", \"Monday\", sep=\"? \", \nend=\"!!\") \nprint(\"I like string beans.\") \nToday? is? Monday!!I like string \nbeans. \nTable 1.1 Example uses of print(). \nCHECKPOINT \nDisplaying output to the u",
+        "metadata": {
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 21
+        },
+        "score": 0.029910714285714284,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_20_fixed_3 | https://openstax.org/details/books/introduction-python-programming | page 20]\ntion. \n• Obtain user input using the input() function. \nBasic output \nThe print() function displays output to the user. Output is the information or result produced by a program. \nThe sep and end options can be used to customize the output. Table 1.1 shows examples of sep and end. \nTRY IT \n10 1 • Statements\nAccess for free at openstax.org",
+    "context_ids": [
+      "python_openstax_20_fixed_3"
+    ],
+    "context_chars": 448,
+    "elapsed_ms": 445.92220000049565,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q03",
+    "split": "dev",
+    "question": "How do you prevent print() from automatically starting a new line?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 21,
+        "evidence": "The end option can be used to continue printing on the same line."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_38_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 38,
+        "text": "t(\"You said:\", adj1 + \" \" + noun1) \na. # Append adj1 and noun1 \nb. # Print out a bunch of stuff \nc. # Show the resulting phrase \n5 . Where should a blank line be inserted? \n1 name = input(\"Whose birthday is today? \") \n2 print(\"Happy birthday to\", name) \n3 print(\"Everyone cheer for\", name) \na. After line 1 \nb. After line 2 \nc. After line 3 \n6 . To temporarily prevent a line from being run, one might . . . \na. introduce a syntax error in the line. \nb. remove the line from the program. \n28 1 • Stat",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 38
+        },
+        "score": 0.031544957774465976,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_70_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 70,
+        "text": "ng the use of explicit line joining whenever possible. \nCONCEPTS IN PRACTICE \nMulti-line statements \n8 . Which character is used for explicit line joining? \na. / \nb. \\ \nc. | \n9 . What is the best way to print a very long string? \na. Break up the string into multiple smaller strings. \nprint(\"...\" # first part of string \n\"...\" # next part of string \n\"...\") \nb. Print the string using multiple print statements. \nprint(\"...\") # first part of string \nprint(\"...\") # next part of string \nprint(\"...\") \nc",
+        "metadata": {
+          "chapter": "2",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 70,
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.0315136476426799,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_22_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 22,
+        "text": "print(\"555\", \"0123\", sep=\"-\") \na. 555 0123 \nb. 5550123- \nc. 555-0123 \nDO SPACES REALLY MATTER? \nSpaces and newline characters are not inherently important. However, learning to be precise is an essential \nskill for programming. Noticing little details, like how words are separated and how lines end, helps new \nprogrammers become better. \nBasic input \nComputer programs often receive input from the user. Input is what a user enters into a program. An input \nstatement, variable = input(\"prompt\"), h",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed",
+          "page": 22
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_38_fixed_2 | https://openstax.org/details/books/introduction-python-programming | page 38]\nt(\"You said:\", adj1 + \" \" + noun1) \na. # Append adj1 and noun1 \nb. # Print out a bunch of stuff \nc. # Show the resulting phrase \n5 . Where should a blank line be inserted? \n1 name = input(\"Whose birthday is today? \") \n2 print(\"Happy birthday to\", name) \n3 print(\"Everyone cheer for\", name) \na. After line 1 \nb. After line 2 \nc. After line 3 \n6 . To temporarily prevent a line from being run, one might . . . \na. introduce a syntax error in the line. \nb. remove the line from the program. \n28 1 • Stat",
+    "context_ids": [
+      "python_openstax_38_fixed_2"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 247.129399998812,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q04",
+    "split": "dev",
+    "question": "What does input() do in a Python program?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 22,
+        "evidence": "The input() function reads one line of input from the user."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_22_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 22,
+        "text": "An input \nstatement, variable = input(\"prompt\"), has three parts: \n1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any \nname the programmer chooses. \n2. The input() function reads one line of input from the user. A function is a named, reusable block of code \nthat performs a task when called. The input is stored in the computer's memory and can be accessed later \nusing the variable. \n3. A prompt is a short message that indicates the program",
+        "metadata": {
+          "page": 22,
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.030834914611005692,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_22_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 22,
+        "text": "ompt is a short message that indicates the program is waiting for input. In the statement above, \n\"prompt\" can be omitted or replaced with any message. \nCHECKPOINT \nObtaining input from the user \nDisplaying output to the user; ch 1, video 3 (https://www.openstax.org/r/obtaining-input) \nCONCEPTS IN PRACTICE \nThe input() function \n4 . Which line of code correctly obtains and stores user input? \na. input() \nb. today_is = input \nc. today_is = input() \n5 . Someone named Sophia enters their name when ",
+        "metadata": {
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 22,
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.03055037313432836,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_23_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 23,
+        "text": " made all the difference. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/1-2-input-\noutput) \nName and likes \nWrite a program that asks the following two questions (example input in bold): \nWhat is your name? Shakira \nWhat do you like? singing \nOutput a blank line after reading the input. Then output the following message based on the input: \nShakira likes singing \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pag",
+        "metadata": {
+          "chunk_type": "fixed",
+          "page": 23,
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_22_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 22]\nAn input \nstatement, variable = input(\"prompt\"), has three parts: \n1. A variable refers to a value stored in memory. In the statement above, variable can be replaced with any \nname the programmer chooses. \n2. The input() function reads one line of input from the user. A function is a named, reusable block of code \nthat performs a task when called. The input is stored in the computer's memory and can be accessed later \nusing the variable. \n3. A prompt is a short message that indicates the program",
+    "context_ids": [
+      "python_openstax_22_fixed_1"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 258.4476000010909,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q05",
+    "split": "dev",
+    "question": "What is the meaning of the assignment operator = in Python?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 24,
+        "evidence": "The left side of the assignment statement \nis a variable, and the right side is the value the variable is assigned."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_24_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 24,
+        "text": "t this is different from \nthe equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement \nis a variable, and the right side is the value the variable is assigned. \nCHECKPOINT \nAssigning and using variables \nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables) \nCONCEPTS IN PRACTICE \nAssigning and using variables \n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "page": 24,
+          "document_id": "python_openstax"
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_44_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 44,
+        "text": "Function \nDescription \n= \n(Assignment) \nAssigns (or updates) the value of a variable. In Python, variables begin to exist when \nassigned for the first time. \n+ \n(Concatenation) \nAppends the contents of two strings, resulting in a new string. \n+ \n(Addition) \nAdds the values of two numbers. \n- \n(Subtraction) \nSubtracts the value of one number from another. \n* \n(Multiplication) \nMultiplies the values of two numbers. \n/ \n(Division) \nDivides the value of one number by another. \n** \n(Exponentiation) \n",
+        "metadata": {
+          "page": 44,
+          "chapter": "1",
+          "chunk_type": "fixed",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_24_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 24,
+        "text": "the variable, city, after the following assignment? \ncity = \"Chicago\" \na. print(\"In which city do you live?\") \nb. city = \"London\" \nc. print(\"The city where you live is\", city) \n2 . Which program stores and retrieves a variable correctly? \na. print(\"Total =\", total) \ntotal = 6 \nb. total = 6 \nprint(\"Total =\", total) \nc. print(\"Total =\", total) \ntotal = input() \n3 . Which is the assignment operator? \na. : \nb. == \nc. = \n4 . Which is a valid assignment? \n14 1 • Statements\nAccess for free at openstax.",
+        "metadata": {
+          "chunk_type": "fixed",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 24,
+          "chapter": "1"
+        },
+        "score": 0.03057889822595705,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_24_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 24]\nt this is different from \nthe equal sign of mathematics. Ex: age = 6 or birth = \"May 15\". The left side of the assignment statement \nis a variable, and the right side is the value the variable is assigned. \nCHECKPOINT \nAssigning and using variables \nAssigning and using variables; ch 1, video 5 (https://www.openstax.org/r/using-variables) \nCONCEPTS IN PRACTICE \nAssigning and using variables \n1 . Which line of code correctly retrieves the value of the variable, city, after the following assignment",
+    "context_ids": [
+      "python_openstax_24_fixed_1"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 324.33970000056433,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q06",
+    "split": "dev",
+    "question": "What naming style does the Python style guide recommend for variables?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 25,
+        "evidence": "Python's style \nguide recommends writing variable names in snake case"
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_67_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 67,
+        "text": "t to name variables, how to break up long lines, and other important \ntopics. \nPYTHON STYLE GUIDE \nPEP 8 (https://openstax.org/r/100PEP8) is the official style guide for Python. PEP stands for Python \nEnhancement Proposal. Members of the Python community write PEPs to document best practices and \npropose new features. The table below is based on guidelines from PEP 8 under the heading Whitespace in \nExpressions and Statements (https://openstax.org/r/100whitespace). \n2.7 • Formatting code 57",
+        "metadata": {
+          "chunk_type": "fixed",
+          "chapter": "2",
+          "page": 67,
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_25_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 25,
+        "text": "a. temperature = 98.5 \nb. 98.5 = temperature \nc. temperature - 23.2 \nVariable naming rules \nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start \nwith a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style \nguide recommends writing variable names in snake case, which is all lowercase with underscores in between \neach word, such as first_name or total_price. \nA name should be short and d",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_26_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 26,
+        "text": "c. zip_code \n8 . Given the variable name, DogBreed, which improvement conforms to Python's style guide? \na. dog_breed \nb. dogBreed \nc. dog-breed \nFinal score \nWrite a Python computer program that: \n• Creates a variable, team1, assigned with the value \"Liverpool\". \n• Creates a variable, team2, assigned with the value \"Chelsea\". \n• Creates a variable score1, assigned with the value 4. \n• Creates a variable, score2, assigned with the value 3. \n• Prints team1, \"versus\", and team2 as a single line of",
+        "metadata": {
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 26,
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.030330882352941176,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_67_fixed_3 | https://openstax.org/details/books/introduction-python-programming | page 67]\nt to name variables, how to break up long lines, and other important \ntopics. \nPYTHON STYLE GUIDE \nPEP 8 (https://openstax.org/r/100PEP8) is the official style guide for Python. PEP stands for Python \nEnhancement Proposal. Members of the Python community write PEPs to document best practices and \npropose new features. The table below is based on guidelines from PEP 8 under the heading Whitespace in \nExpressions and Statements (https://openstax.org/r/100whitespace). \n2.7 • Formatting code 57",
+    "context_ids": [
+      "python_openstax_67_fixed_3"
+    ],
+    "context_chars": 603,
+    "elapsed_ms": 247.74520000210032,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q07",
+    "split": "dev",
+    "question": "Can a Python variable name begin with a digit?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 25,
+        "evidence": "The name cannot start \nwith a digit."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_25_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 25,
+        "text": "a. temperature = 98.5 \nb. 98.5 = temperature \nc. temperature - 23.2 \nVariable naming rules \nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start \nwith a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style \nguide recommends writing variable names in snake case, which is all lowercase with underscores in between \neach word, such as first_name or total_price. \nA name should be short and d",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "page": 25,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_25_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 25,
+        "text": "inally \nis \nreturn \nand \ncontinue \nfor \nlambda \ntry \nas \ndef \nfrom \nnonlocal \nwhile \nassert \ndel \nglobal \nnot \nwith \nasynch \nelif \nif \nor \nyield \nTable 1.2 Keywords \nCONCEPTS IN PRACTICE \nValid variable names \n5 . Which can be used as a variable name? \na. median \nb. class \nc. import \n6 . Why is the name, 2nd_input, not a valid variable name? \na. contains an underscore \nb. starts with a digit \nc. is a keyword \n7 . Which would be a good name for a variable storing a zip code? \na. z \nb. var_2 \n1.3 ",
+        "metadata": {
+          "chapter": "1",
+          "chunk_type": "fixed",
+          "page": 25,
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_29_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 29,
+        "text": "t the length of each name. Based on the example input above, the output \nwould be: \nYour first name is 4 letters long \nYour last name is 6 letters long \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-4-string-basics) \nPunctuation \nWrite a Python computer program that: \n• Assigns the string \"Freda\" to a variable, name. \n• Assigns the string \"happy\" to a variable, feel. \n• Prints the string \"Hi Freda!\" with a single print() function using the variable",
+        "metadata": {
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "1",
+          "page": 29
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_25_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 25]\na. temperature = 98.5 \nb. 98.5 = temperature \nc. temperature - 23.2 \nVariable naming rules \nA variable name can consist of letters, digits, and underscores and be of any length. The name cannot start \nwith a digit. Ex: 101class is invalid. Also, letter case matters. Ex: Total is different from total. Python's style \nguide recommends writing variable names in snake case, which is all lowercase with underscores in between \neach word, such as first_name or total_price. \nA name should be short and d",
+    "context_ids": [
+      "python_openstax_25_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 222.55539999969187,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q08",
+    "split": "dev",
+    "question": "How does the book define a Python string?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 26,
+        "evidence": "A string is a sequence of characters enclosed by matching single (') or double (\") quotes."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_29_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 29,
+        "text": "t the length of each name. Based on the example input above, the output \nwould be: \nYour first name is 4 letters long \nYour last name is 6 letters long \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-4-string-basics) \nPunctuation \nWrite a Python computer program that: \n• Assigns the string \"Freda\" to a variable, name. \n• Assigns the string \"happy\" to a variable, feel. \n• Prints the string \"Hi Freda!\" with a single print() function using the variable",
+        "metadata": {
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "1",
+          "page": 29
+        },
+        "score": 0.03007688828584351,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_19_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 19,
+        "text": ". Ex: \nPandas (https://openstax.org/r/100pandas) is a widely used library for data analysis. \nAnother reason why Python is popular is because the syntax is concise and straightforward. The syntax of a \nlanguage defines how code must be structured. Syntax rules define the keywords, symbols, and formatting \nused in programs. Compared to other programming languages, Python is more concise and straightforward. \nEXAMPLE 1.1 \nHello world in Python and Java \nBy tradition, Hello World (https://openstax.",
+        "metadata": {
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 19,
+          "chunk_type": "fixed"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_47_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 47,
+        "text": "Figure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "2",
+          "page": 47,
+          "document_id": "python_openstax",
+          "chunk_type": "fixed"
+        },
+        "score": 0.01639344262295082,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_29_fixed_1 | https://openstax.org/details/books/introduction-python-programming | page 29]\nt the length of each name. Based on the example input above, the output \nwould be: \nYour first name is 4 letters long \nYour last name is 6 letters long \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n1-4-string-basics) \nPunctuation \nWrite a Python computer program that: \n• Assigns the string \"Freda\" to a variable, name. \n• Assigns the string \"happy\" to a variable, feel. \n• Prints the string \"Hi Freda!\" with a single print() function using the variable",
+    "context_ids": [
+      "python_openstax_29_fixed_1"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 244.00779999996303,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q09",
+    "split": "dev",
+    "question": "What is string concatenation?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 28,
+        "evidence": "Concatenation is an operation that combines two or more strings sequentially"
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_69_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 69,
+        "text": "ecent respect to the opinions of mankind requires that they \" \n      \"should declare the causes which impel them to the separation.\") \nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this \nsituation. \nCHECKPOINT \nString concatenation \nString concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat) \nCONCEPTS IN PRACTICE \nString literal concatenation \n5 . Which line prints the word \"grandmother\"? \na. print(grandmother) \nb. prin",
+        "metadata": {
+          "page": 69,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "chapter": "2"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_28_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 28,
+        "text": "e concatenation operator \n(+). Ex: \"A\" + \"part\" produces the string \"Apart\". \nCHECKPOINT \nConcatenating multiple strings \nConcatenating multiple strings; ch 1, video 7 (https://www.openstax.org/r/concatenating-strings) \nCONCEPTS IN PRACTICE \nString concatenation \n8 . Which produces the string \"10\"? \na. 1 + 0 \nb. \"1 + 0\" \nc. \"1\" + \"0\" \n9 . Which produces the string \"Awake\"? \na. \"wake\" + \"A\" \nb. \"A + wake\" \nc. \"A\" + \"wake\" \n10 . A user enters \"red\" after the following line of code. \ncolor = input(",
+        "metadata": {
+          "page": 28,
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.032266458495966696,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_28_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 28,
+        "text": "b. 5 \nc. 6 \n6 . What is the length of an empty string variable (\"\")? \na. undefined \nb. 0 \nc. 2 \n7 . What is the output of the following code? \nnumber = \"12\" \nnumber_of_digits = len(number) \nprint(\"Number\", number, \"has\", number_of_digits, \"digits.\") \na. Number 12 has 12 digits. \nb. Number 12 has 2 digits. \nc. Number 12 has number_of_digits digits. \nConcatenation \nConcatenation is an operation that combines two or more strings sequentially with the concatenation operator \n(+). Ex: \"A\" + \"part\" pr",
+        "metadata": {
+          "page": 28,
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "chapter": "1"
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "hit": true
+      }
+    ],
+    "context": "[python_openstax_69_fixed_3 | https://openstax.org/details/books/introduction-python-programming | page 69]\necent respect to the opinions of mankind requires that they \" \n      \"should declare the causes which impel them to the separation.\") \nFor convenience, Python automatically concatenates multiple strings. The + operator is not required in this \nsituation. \nCHECKPOINT \nString concatenation \nString concatenation; ch 2, video 11 (https://www.openstax.org/r/string-concat) \nCONCEPTS IN PRACTICE \nString literal concatenation \n5 . Which line prints the word \"grandmother\"? \na. print(grandmother) \nb. prin",
+    "context_ids": [
+      "python_openstax_69_fixed_3"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 298.09479999676114,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q10",
+    "split": "dev",
+    "question": "Which two basic numeric formats are introduced in the textbook?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 30,
+        "evidence": "Python supports two basic number formats, integer and floating-point."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_30_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 30,
+        "text": "• Explain the precedence of arithmetic operators. \nNumeric data types \nPython supports two basic number formats, integer and floating-point. An integer represents a whole number, \nand a floating-point format represents a decimal number. The format a language uses to represent data is \ncalled a data type. In addition to integer and floating-point types, programming languages typically have a \nstring type for representing text. \nCHECKPOINT \nInteger and floating-point \nInteger and floating point; c",
+        "metadata": {
+          "document_id": "python_openstax",
+          "page": 30,
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_30_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 30,
+        "text": "> \nc. 2 <class 'int'> \n3 . What is the type of the following value? \n\"12.0\" \na. string \nb. int \nc. float \nBasic arithmetic \nArithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, \nand division. \nFour basic arithmetic operators exist in Python: \n1. Addition (+) \n2. Subtraction (-) \n20 1 • Statements\nAccess for free at openstax.org",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 30,
+          "chapter": "1",
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.031024531024531024,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_39_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 39,
+        "text": "\"\"\"Vacations Madlib.\"\"\" \nb. \"\"\"Vacations Madlib. This program asks the user for two adjectives and two \nnouns, which are then used to print a funny story about a vacation. \"\"\" \nc. \"\"\"Vacations Madlib. This program asks the user for two adjectives and two \nnouns, which are then used to print a funny story about a vacation. The code \nuses four variables to store the user input: two for the adjectives, and two \nfor the nouns. The output is displayed on seven lines, beginning with a blank \nline afte",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "chapter": "1",
+          "chunk_type": "fixed",
+          "page": 39
+        },
+        "score": 0.016129032258064516,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_30_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 30]\n• Explain the precedence of arithmetic operators. \nNumeric data types \nPython supports two basic number formats, integer and floating-point. An integer represents a whole number, \nand a floating-point format represents a decimal number. The format a language uses to represent data is \ncalled a data type. In addition to integer and floating-point types, programming languages typically have a \nstring type for representing text. \nCHECKPOINT \nInteger and floating-point \nInteger and floating point; c",
+    "context_ids": [
+      "python_openstax_30_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 302.9458999990311,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q11",
+    "split": "dev",
+    "question": "Which is evaluated first: multiplication or addition?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 32,
+        "evidence": "multiplication takes precedence over addition."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_32_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 32,
+        "text": "is 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses \ntake precedence over multiplication. \nOperator \nDescription \nExample \nResult \n() \nParentheses \n(1 + 2) * 3 \n9 \n** \nExponentiation \n2 ** 4 \n16 \n+, - \nPositive, negative \n-math.pi \n-3.14159 \n*, / \nMultiplication, division \n2 * 3 \n6 \n+, - \nAddition, subtraction \n1 + 2 \n3 \nTable 1.4 Operator precedence from highest to lowest. \nCHECKPOINT \nOrder of operations in an arithmetic expression \nOrder o",
+        "metadata": {
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 32,
+          "chapter": "1",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_31_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 31,
+        "text": "a. 2 \nb. 2.0 \nc. 2.5 \n6 . What is the output of print(x / z)? \na. 3 \nb. 3.0 \nc. 3.5 \n7 . What is the output of print(y / z)? \na. 0 \nb. 10 \nc. 10.0 \n8 . What is the output of print(z * 1.5)? \na. 2 \nb. 3 \nc. 3.0 \nOperator precedence \nWhen a calculation has multiple operators, each operator is evaluated in order of precedence. Ex: 1 + 2 * 3 \n1.5 • Number basics 21",
+        "metadata": {
+          "document_id": "python_openstax",
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 31,
+          "chunk_type": "fixed"
+        },
+        "score": 0.031009615384615385,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_44_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 44,
+        "text": "Function \nDescription \n= \n(Assignment) \nAssigns (or updates) the value of a variable. In Python, variables begin to exist when \nassigned for the first time. \n+ \n(Concatenation) \nAppends the contents of two strings, resulting in a new string. \n+ \n(Addition) \nAdds the values of two numbers. \n- \n(Subtraction) \nSubtracts the value of one number from another. \n* \n(Multiplication) \nMultiplies the values of two numbers. \n/ \n(Division) \nDivides the value of one number by another. \n** \n(Exponentiation) \n",
+        "metadata": {
+          "page": 44,
+          "chapter": "1",
+          "chunk_type": "fixed",
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.03036576949620428,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_32_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 32]\nis 7 because multiplication takes precedence over addition. However, (1 + 2) * 3 is 9 because parentheses \ntake precedence over multiplication. \nOperator \nDescription \nExample \nResult \n() \nParentheses \n(1 + 2) * 3 \n9 \n** \nExponentiation \n2 ** 4 \n16 \n+, - \nPositive, negative \n-math.pi \n-3.14159 \n*, / \nMultiplication, division \n2 * 3 \n6 \n+, - \nAddition, subtraction \n1 + 2 \n3 \nTable 1.4 Operator precedence from highest to lowest. \nCHECKPOINT \nOrder of operations in an arithmetic expression \nOrder o",
+    "context_ids": [
+      "python_openstax_32_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 254.09020000006421,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q12",
+    "split": "dev",
+    "question": "What does the caret symbol in a SyntaxError message indicate?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 34,
+        "evidence": "The caret character (^) shows where Python found the error."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_33_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 33,
+        "text": "result when mistakes are made when writing code. The computer requires very \nspecific instructions telling the computer what to do. If the instructions are not clear, then the computer does \nnot know what to do and gives back an error. \nWhen an error occurs, Python displays a message with the following information: \n1. The line number of the error. \n2. The type of error (Ex: SyntaxError). \n3. Additional details about the error. \nTRY IT \nTRY IT \n1.6 • Error messages 23",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "page": 33,
+          "document_id": "python_openstax"
+        },
+        "score": 0.03225806451612903,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_34_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 34,
+        "text": "the error. Sometimes the error may be located one or two \nlines before where the caret symbol is shown because Python may not have discovered the error until then. \nTraceback is a Python report of the location and type of error. The word traceback suggests a programmer \ntrace back in the code to find the error if the error is not seen right away. \nLearning to read error messages carefully is an important skill. The amount of technical jargon can be \noverwhelming at first. But this information ca",
+        "metadata": {
+          "page": 34,
+          "document_id": "python_openstax",
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.032018442622950824,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_37_fixed_3",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 37,
+        "text": "The main purpose of writing comments is to _____. \na. avoid writing syntax errors \nb. explain what the code does \nc. make the code run faster \n2 . Which symbol is used for comments in Python? \na. # \nb. /* \n1.7 • Comments 27",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 37,
+          "chunk_type": "fixed",
+          "chapter": "1",
+          "document_id": "python_openstax"
+        },
+        "score": 0.03177805800756621,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_33_fixed_3 | https://openstax.org/details/books/introduction-python-programming | page 33]\nresult when mistakes are made when writing code. The computer requires very \nspecific instructions telling the computer what to do. If the instructions are not clear, then the computer does \nnot know what to do and gives back an error. \nWhen an error occurs, Python displays a message with the following information: \n1. The line number of the error. \n2. The type of error (Ex: SyntaxError). \n3. Additional details about the error. \nTRY IT \nTRY IT \n1.6 • Error messages 23",
+    "context_ids": [
+      "python_openstax_33_fixed_3"
+    ],
+    "context_chars": 580,
+    "elapsed_ms": 255.906700000196,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "Q13",
+    "split": "dev",
+    "question": "What character begins a Python comment?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 37,
+        "evidence": "Each comment begins with a hash character (#)."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_37_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 37,
+        "text": "1.7 Comments \nLearning objectives \nBy the end of this section you should be able to \n• Write concise, meaningful comments that explain intended functionality of the code. \n• Write a docstring (more verbose comment) that describes the program functionality. \nThe hash character \nComments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following \nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character \nto the end",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 37,
+          "chapter": "1",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03252247488101534,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_37_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 37,
+        "text": " (#). All text from the hash character \nto the end of the line is ignored when running the program. In contrast, hash characters inside of strings are \ntreated as regular text. Ex: The string \"Item #1: \" does not contain a comment. \nWhen writing comments: \n• The # character should be followed by a single space. Ex: # End of menu is easier to read than #End of \nmenu. \n• Comments should explain the purpose of the code, not just repeat the code itself. Ex: # Get the user's \npreferences is more desc",
+        "metadata": {
+          "document_id": "python_openstax",
+          "page": 37,
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03125763125763126,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_38_fixed_1",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 38,
+        "text": "r for others to \nread and understand is important. Two ways to improve code quality include: \n• Separate each part (lines that have a similar purpose) with a blank line. \n• Write a comment before each part. Not every line needs a comment. \nCHECKPOINT \nComments in a program \nComments in a program; ch 1, video 12 (https://www.openstax.org/r/comments) \nCONCEPTS IN PRACTICE \nCode quality \n4 . Which comment is most useful for the following code? \nprint(\"You said:\", adj1 + \" \" + noun1) \na. # Append ad",
+        "metadata": {
+          "chapter": "1",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "chunk_type": "fixed",
+          "page": 38
+        },
+        "score": 0.031054405392392875,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_37_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 37]\n1.7 Comments \nLearning objectives \nBy the end of this section you should be able to \n• Write concise, meaningful comments that explain intended functionality of the code. \n• Write a docstring (more verbose comment) that describes the program functionality. \nThe hash character \nComments are short phrases that explain what the code is doing. Ex: Lines 1, 8, and 10 in the following \nprogram contain comments. Each comment begins with a hash character (#). All text from the hash character \nto the end",
+    "context_ids": [
+      "python_openstax_37_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 230.9132000009413,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q14",
+    "split": "dev",
+    "question": "In Chapter 2, what does REPL stand for?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 49,
+        "evidence": "REPL stands for \"read-eval-\nprint loop,"
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_49_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 49,
+        "text": "The acronym REPL (pronounced \"rep ul\") is often used when referring to a shell. REPL stands for \"read-eval-\nprint loop,\" which describes the repetitive nature of a shell: \n1. Read/input some code \n2. Evaluate/run the code \n3. Print any results \n4. Loop back to step 1 \nMost shells maintain a history of every line of code the user types. Pressing the up or down arrow key on the \nkeyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line. \nThat way",
+        "metadata": {
+          "chapter": "2",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "page": 49,
+          "chunk_type": "fixed",
+          "document_id": "python_openstax"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_73_fixed_2",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 73,
+        "text": "thon \nApplications in Real-World\" (https://openstax.org/r/100top12apps) by Rohit Sharma. For more information \nabout Python related careers, see \"What Does a Python Developer Do?\" (https://openstax.org/r/100careers) \nin BrainStation's career guide. \n2.9 Chapter summary \nHighlights from this chapter include: \n• Expressions and statements can be run interactively using a shell. \n• Input strings can be converted to other types. Ex: int(input()). \n• Strings can be concatenated with other types. Ex: ",
+        "metadata": {
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "2",
+          "page": 73,
+          "chunk_type": "fixed"
+        },
+        "score": 0.03128054740957967,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_47_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 47,
+        "text": "Figure 2.1 credit: modification of work \"Grace Hopper at Univac I console\", courtesy of the Computer History Museum \nChapter Outline \n2.1 The Python shell \n2.2 Type conversion \n2.3 Mixed data types \n2.4 Floating-point errors \n2.5 Dividing integers \n2.6 The math module \n2.7 Formatting code \n2.8 Python careers \n2.9 Chapter summary \nIntroduction \nA computer program is a sequence of statements that run one after the other. In Python, many statements \nconsist of one or more expressions. An expression",
+        "metadata": {
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chapter": "2",
+          "page": 47,
+          "document_id": "python_openstax",
+          "chunk_type": "fixed"
+        },
+        "score": 0.030798389007344232,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_49_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 49]\nThe acronym REPL (pronounced \"rep ul\") is often used when referring to a shell. REPL stands for \"read-eval-\nprint loop,\" which describes the repetitive nature of a shell: \n1. Read/input some code \n2. Evaluate/run the code \n3. Print any results \n4. Loop back to step 1 \nMost shells maintain a history of every line of code the user types. Pressing the up or down arrow key on the \nkeyboard displays the history. The up arrow displays the previous line; the down arrow displays the next line. \nThat way",
+    "context_ids": [
+      "python_openstax_49_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 232.5792999981786,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "Q15",
+    "split": "dev",
+    "question": "How does true division differ from floor division in Python?",
+    "strategy": "hybrid_rrf",
+    "top_k": 3,
+    "candidate_k_per_method": 10,
+    "rrf_k": 60,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 59,
+        "evidence": "True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided."
+      }
+    ],
+    "results": [
+      {
+        "id": "python_openstax_59_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 59,
+        "text": "2.5 Dividing integers \nLearning objectives \nBy the end of this section you should be able to \n• Evaluate expressions that involve floor division and modulo. \n• Use the modulo operator to convert between units of measure. \nDivision and modulo \nPython provides two ways to divide numbers: \n• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 becau",
+        "metadata": {
+          "chapter": "2",
+          "page": 59,
+          "document_id": "python_openstax",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "chunk_type": "fixed"
+        },
+        "score": 0.03278688524590164,
+        "strategy": "hybrid",
+        "hit": true
+      },
+      {
+        "id": "python_openstax_60_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 60,
+        "text": "Unit conversions \nDivision is useful for converting one unit of measure to another. To convert centimeters to meters, a variable is \ndivided by 100. Ex: 300 centimeters divided by 100 is 3 meters. \nAmounts often do not divide evenly as integers. 193 centimeters is 1.93 meters, or 1 meter and 93 \ncentimeters. A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100. \nPrograms often use floor division",
+        "metadata": {
+          "document_id": "python_openstax",
+          "chapter": "2",
+          "chunk_type": "fixed",
+          "page": 60,
+          "source": "https://openstax.org/details/books/introduction-python-programming"
+        },
+        "score": 0.03200204813108039,
+        "strategy": "hybrid",
+        "hit": false
+      },
+      {
+        "id": "python_openstax_62_fixed_0",
+        "source_id": "python_openstax",
+        "source": "https://openstax.org/details/books/introduction-python-programming",
+        "page": 62,
+        "text": "Your code must not use Python keywords from later chapters, such as if or while. The solution requires \nonly subtraction, multiplication, division, and modulo. \nAccess multimedia content (http://openstax.org/books/introduction-python-programming/pages/\n2-5-dividing-integers) \n2.6 The math module \nLearning objectives \nBy the end of this section you should be able to \n• Distinguish between built-in functions and math functions. \n• Use functions and constants defined in the math module. \nImporting ",
+        "metadata": {
+          "chunk_type": "fixed",
+          "chapter": "2",
+          "source": "https://openstax.org/details/books/introduction-python-programming",
+          "document_id": "python_openstax",
+          "page": 62
+        },
+        "score": 0.031754032258064516,
+        "strategy": "hybrid",
+        "hit": false
+      }
+    ],
+    "context": "[python_openstax_59_fixed_0 | https://openstax.org/details/books/introduction-python-programming | page 59]\n2.5 Dividing integers \nLearning objectives \nBy the end of this section you should be able to \n• Evaluate expressions that involve floor division and modulo. \n• Use the modulo operator to convert between units of measure. \nDivision and modulo \nPython provides two ways to divide numbers: \n• True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided. Ex: 7 // 4 is 1 becau",
+    "context_ids": [
+      "python_openstax_59_fixed_0"
+    ],
+    "context_chars": 608,
+    "elapsed_ms": 240.08189999949536,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

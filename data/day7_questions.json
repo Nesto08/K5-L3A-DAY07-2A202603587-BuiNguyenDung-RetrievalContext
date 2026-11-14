@@ -1,0 +1,326 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "question": "Why is Python popular for practical programming?",
+    "expected_answer": "Many available libraries and concise, straightforward syntax.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 19,
+        "evidence": "One reason why Python is popular is because many libraries exist for doing real work."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "question": "What does the sep option in print() control?",
+    "expected_answer": "It customizes the separator between printed values.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 21,
+        "evidence": "The sep option can be used to change this behavior."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "question": "How do you prevent print() from automatically starting a new line?",
+    "expected_answer": "Set the end option to continue printing on the same line.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 21,
+        "evidence": "The end option can be used to continue printing on the same line."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "question": "What does input() do in a Python program?",
+    "expected_answer": "It reads one line of input from the user.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 22,
+        "evidence": "The input() function reads one line of input from the user."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "question": "What is the meaning of the assignment operator = in Python?",
+    "expected_answer": "It assigns the right-hand value to the variable on the left.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 24,
+        "evidence": "The left side of the assignment statement \nis a variable, and the right side is the value the variable is assigned."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "question": "What naming style does the Python style guide recommend for variables?",
+    "expected_answer": "snake_case: lowercase words separated by underscores.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 25,
+        "evidence": "Python's style \nguide recommends writing variable names in snake case"
+      }
+    ],
+    "filter": {
+      "chapter": "1"
+    }
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "question": "Can a Python variable name begin with a digit?",
+    "expected_answer": "No.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 25,
+        "evidence": "The name cannot start \nwith a digit."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "question": "How does the book define a Python string?",
+    "expected_answer": "A sequence of characters enclosed in matching single or double quotes.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 26,
+        "evidence": "A string is a sequence of characters enclosed by matching single (') or double (\") quotes."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "question": "What is string concatenation?",
+    "expected_answer": "Combining two or more strings sequentially using +.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 28,
+        "evidence": "Concatenation is an operation that combines two or more strings sequentially"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "question": "Which two basic numeric formats are introduced in the textbook?",
+    "expected_answer": "Integer and floating-point.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 30,
+        "evidence": "Python supports two basic number formats, integer and floating-point."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "question": "Which is evaluated first: multiplication or addition?",
+    "expected_answer": "Multiplication, unless parentheses change the order.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 32,
+        "evidence": "multiplication takes precedence over addition."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "question": "What does the caret symbol in a SyntaxError message indicate?",
+    "expected_answer": "Where Python found the error.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 34,
+        "evidence": "The caret character (^) shows where Python found the error."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "question": "What character begins a Python comment?",
+    "expected_answer": "# (hash character).",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 37,
+        "evidence": "Each comment begins with a hash character (#)."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "question": "In Chapter 2, what does REPL stand for?",
+    "expected_answer": "Read-eval-print loop.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 49,
+        "evidence": "REPL stands for \"read-eval-\nprint loop,"
+      }
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "question": "How does true division differ from floor division in Python?",
+    "expected_answer": "True division uses / and returns a floating-point quotient; floor division uses // and computes the floored quotient.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 59,
+        "evidence": "True division (/) converts numbers to floats before dividing. Ex: 7 / 4 becomes 7.0 / 4.0, resulting in \n1.75. \n• Floor division (//) computes the quotient, or the number of times divided."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "What is a docstring used for?",
+    "expected_answer": "Documentation for people who use the program without necessarily reading the source.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 39,
+        "evidence": "A docstring is documentation \nwritten for others who will use the program"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "In Chapter 2, why is an interpreter needed?",
+    "expected_answer": "To run/translate high-level Python code into operations computers can execute.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 48,
+        "evidence": "written in high-level languages must be translated into machine code to run. This translation process can \nhappen all at once, or a little at a time, depending on the language. \nPython is an interpreted language: the source code is translated one line at a time while the program is \nrunning. The Python interpreter translates source code into machine code and runs the resulting program."
+      }
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "How does the up arrow key behave in the Python shell history?",
+    "expected_answer": "It displays the previous line.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 49,
+        "evidence": "The up arrow displays the previous line;"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "How do floor division and modulo help convert centimeters into meters and leftover centimeters?",
+    "expected_answer": "Floor division gives whole meters; modulo gives the leftover centimeters.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 60,
+        "evidence": "A program can use floor division and modulo to separate the units: \n• The quotient, 1 meter, is 193 // 100. \n• The remainder, 93 centimeters, is 193 % 100."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "In Chapter 2, what does math.floor(x) compute?",
+    "expected_answer": "The largest integer less than or equal to x.",
+    "gold": [
+      {
+        "source_id": "python_openstax",
+        "page": 64,
+        "evidence": "The floor of x: the largest integer less than or equal \nto x."
+      }
+    ],
+    "filter": {
+      "chapter": "2"
+    }
+  },
+  {
+    "id": "Q21",
+    "split": "dev",
+    "question": "How does Python's asyncio event loop schedule coroutines?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q22",
+    "split": "dev",
+    "question": "How does multiprocessing.Pool distribute tasks across processes?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q23",
+    "split": "test",
+    "question": "How do you create and activate a virtual environment using venv?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  },
+  {
+    "id": "Q24",
+    "split": "test",
+    "question": "How does Python's garbage collector detect reference cycles?",
+    "expected_answer": null,
+    "gold": [],
+    "filter": null,
+    "answerable": false
+  }
+]
